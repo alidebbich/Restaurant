@@ -16,9 +16,13 @@ const nextConfig = {
       },
     },
   },
-  // Exclude database and build files from file watcher to prevent HMR rebuild loops
-  watchOptions: {
-    ignored: ["**/data/**", "**/.git/**", "**/node_modules/**"],
+  webpack: (config, { dev, isServer }) => {
+    if (dev && !isServer) {
+      config.watchOptions = {
+        ignored: ["**/data/**", "**/.git/**", "**/node_modules/**"],
+      };
+    }
+    return config;
   },
   images: {
     // SVG uploads disabled by default for security (XSS risk)
