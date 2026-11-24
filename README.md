@@ -1,4 +1,4 @@
-# Dar Zitoun — Authentic Tunisian Gastronomy & Management Platform
+# Modern Restaurant Platform — Full-Stack Web Application & Management System
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.0-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -6,7 +6,7 @@
 [![SQLite](https://img.shields.io/badge/SQLite-WAL_Mode-003B57?style=for-the-badge&logo=sqlite)](https://www.sqlite.org/)
 [![Security](https://img.shields.io/badge/Security-OWASP_Hardened-green?style=for-the-badge&logo=shield)](docs/audit)
 
-**Dar Zitoun** is a modern, production-grade web application and administrative management platform designed for authentic Tunisian Mediterranean cuisine. Built with **Next.js 16 App Router**, **TypeScript**, **Tailwind CSS**, and **SQLite (WAL Mode)** with PostgreSQL compatibility.
+A production-grade, turnkey web application and administrative management platform tailored for **restaurants, bistros, cafes, and gastronomy venues**. Built with **Next.js 16 App Router**, **TypeScript**, **Tailwind CSS**, and **SQLite (WAL Mode)** with full PostgreSQL migration compatibility.
 
 ---
 
@@ -14,16 +14,16 @@
 
 ### 🏛️ Public Experience
 - **Multilingual Support (i18n):** Native multilingual interface in **Français (FR)**, **العربية (AR)** with full RTL bidirectional layout, and **English (EN)** powered by `next-intl`.
-- **Dynamic Digital Menu:** Categorized food showcase featuring dietary tags (vegetarian, spicy), allergens, preparation times, and promotional pricing.
-- **Real-Time Reservation Engine:** Automated table booking system calculating operating hours, service capacity, real-time availability slots, and automatic conflict detection.
+- **Dynamic Digital Menu:** Categorized showcase with dietary indicators (vegetarian, chef specials), allergen alerts, preparation times, and promotional pricing.
+- **Real-Time Reservation Engine:** Automated table booking system calculating operating schedules, seating capacity, real-time availability slots, and automatic conflict detection.
 - **Online Takeaway & Delivery:** Dynamic order placement with instant server-calculated totals.
-- **Heritage & Storytelling:** Mediterranean aesthetic with high-definition curated photography, smooth entrance reveals, and authentic cultural typography.
+- **Culinary Storytelling:** High-definition photography, smooth entrance animations, and responsive typography.
 
 ### ⚙️ Back-Office & Administration (`/admin`)
 - **Executive Dashboard:** Live operational metrics, daily reservation tallies, revenue stats, and quick actions.
-- **Menu & Category Management:** Create, edit, reorder, and toggle active availability of dishes and menu categories.
-- **Table & Reservation Management:** View reservations by date, status (`confirmed`, `seated`, `cancelled`, `no_show`), and manage live customer waitlists.
-- **Content Management System (CMS):** Edit homepage hero titles, restaurant story copy, images, and operating schedules without code changes.
+- **Menu & Category Management:** Create, edit, reorder, and toggle active availability of dishes and categories.
+- **Table & Reservation Management:** View bookings by date, manage status (`confirmed`, `seated`, `cancelled`, `no_show`), and maintain a live customer waitlist.
+- **Content Management System (CMS):** Update homepage hero banners, brand story copy, images, and operating schedules without code changes.
 - **Trash & Soft Deletion:** Resilient soft-delete architecture allowing instant restoration of categories and dishes.
 - **Role-Based Access Control (RBAC):** Granular permissions for `super_admin`, `admin`, `manager`, and `staff`.
 
@@ -122,8 +122,8 @@ node scripts/scan-secrets.mjs
 ```
 restaurant/
 ├── data/                  # SQLite WAL database & secure uploads (git-ignored)
-├── docs/                  # Architecture & verification documentation
-├── public/                # Static assets, branding & restaurant images
+├── docs/                  # Architecture & verification documentation (local)
+├── public/                # Static assets, branding & sample dish media
 ├── scripts/               # Migration, audit & automated security verification
 ├── src/
 │   ├── app/
@@ -148,4 +148,4 @@ restaurant/
 
 ## 📄 License
 
-This project is proprietary and confidential. All rights reserved by **Dar Zitoun**.
+Demonstration and production template. All rights reserved.
