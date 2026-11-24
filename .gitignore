@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# Dependencies
 /node_modules
 /.pnp
 .pnp.*
@@ -10,32 +10,103 @@
 !.yarn/releases
 !.yarn/versions
 
-# testing
+# Testing & Coverage
 /coverage
+/test-results/
+/playwright-report/
+/blob-report/
+/.playwright-cli/
 
-# next.js
+# Next.js Build Output
 /.next/
 /out/
-
-# production
 /build
 
-# misc
+# OS & Temp files
 .DS_Store
-*.pem
+Thumbs.db
+*.tmp
+*.bak
+/*.png
 
-# debug
+# Certificates & Private Keys
+*.pem
+*.key
+*.crt
+*.cert
+cert.pem
+key.pem
+
+# Debug & Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+*.log
+*.log*
+dev.log
 
-# env files (can opt-in for committing if needed)
-.env*
+# Environment Variables & Secrets (CRITICAL: NEVER COMMIT REAL SECRETS)
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
 
-# vercel
+# Local SQLite Databases & Data Directory
+/data/
+*.sqlite*
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.db-wal
+*.db-shm
+
+# User Uploaded Files (preserve directory with .gitkeep)
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# AI Agent Skills, Prompt Blueprints & Internal Prompts (KEEP PRIVATE)
+/.agents/
+/.claude/
+*.skill
+skills-lock.json
+AGENTS.md
+SKILL*.md
+"SKILL*.md"
+
+# Internal Audit, Design & QA Reports (KEEP PRIVATE)
+*REPORT.md
+*_REPORT.md
+ADMIN_QA_REPORT.md
+BUTTON_SYSTEM_REPORT.md
+RESERVATION_QA_REPORT.md
+PROJECT_AUDIT.md
+CREATIVE_DIRECTION.md
+DESIGN.md
+animation.md
+libraries.md
+/design-system/
+/docs/
+
+# Local Agent & Tool Cache / State (Tokens, browser sessions)
+/.superpowers/
+.claude/
+.claude/settings.local.json
+.claude/*.local.json
+.claude/state/
+
+# IDE & Editor Settings
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Vercel Deployment
 .vercel
 
-# typescript
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts

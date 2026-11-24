@@ -1,0 +1,22 @@
+import { NextRequest, NextResponse } from "next/server";
+import { getCurrentUser } from "@/lib/auth";
+import { hardDeleteCategory, logActivity } from "@/lib/db/queries";
+
+export async function DELETE(
+  _req: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  const user = await getCurrentUser();
+  if (!user) return NextResponse.json({ error: "Non autorisé" }, { status: 401 });
+  if (!["super_admin", "restaurant_owner"].includes(user.role)) {
+    return NextResponse.json({ error: "Réservé au propriétaire" }, { status: 403 });
+  }
+
+  const { id } = await params;
+  const result = hardDeleteCategory(id);
+  if (!result.success) return NextResponse.json({ error: result.error }, { status: 400 });
+
+  logActivity({ userId: user.id, userName: user.full_name, action: "hard_delete", entityType: "category", entityId: id });
+  return NextResponse.json({ success: true });
+}
+

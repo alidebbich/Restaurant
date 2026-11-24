@@ -1,0 +1,138 @@
+{
+  "common": {
+    "required": "Requis",
+    "optional": "Optionnel",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "success": "Succès"
+  },
+  "nav": {
+    "menu": "Menu",
+    "story": "Notre Histoire",
+    "gallery": "Galerie",
+    "visit": "Nous Trouver",
+    "reserve": "Réserver",
+    "order": "Commander"
+  },
+  "hero": {
+    "cta_reserve": "Réserver une table",
+    "cta_menu": "Voir le menu"
+  },
+  "story": {
+    "flourish": "Tradition & Passion",
+    "heading": "Une cuisine enracinée dans la tradition",
+    "body": "Depuis 2015, nous célébrons les saveurs authentiques de la Tunisie — des ingrédients soigneusement sélectionnés, des recettes transmises de génération en génération, dans un cadre chaleureux au cœur de la médina.",
+    "cta": "Découvrir notre histoire"
+  },
+  "signature": {
+    "heading": "Nos Plats Signatures",
+    "subheading": "Une sélection de nos créations les plus appréciées"
+  },
+  "menu_section": {
+    "heading": "Le Menu",
+    "view_full": "Voir le menu complet"
+  },
+  "gallery": {
+    "heading": "L'Atmosphère",
+    "subheading": "Un cadre élégant pour des moments inoubliables"
+  },
+  "cta": {
+    "heading": "Une table vous attend",
+    "subheading": "Réservez votre expérience ou passez commande en quelques secondes.",
+    "reserve": "Réserver",
+    "order": "Commander"
+  },
+  "visit": {
+    "heading": "Nous Trouver",
+    "open_now": "Ouvert maintenant",
+    "closed": "Fermé",
+    "opens_at": "Ouvre à {time}",
+    "directions": "Itinéraire",
+    "call": "Appeler",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "legal": "Mentions légales"
+  },
+  "menu_page": {
+    "heading": "Notre Menu",
+    "tag_vegetarian": "Végétarien",
+    "tag_spicy": "Épicé",
+    "tag_signature": "Signature",
+    "tag_new": "Nouveau",
+    "tag_halal": "Halal",
+    "unavailable": "Non disponible"
+  },
+  "reserve_page": {
+    "heading": "Réserver une Table",
+    "name": "Nom complet",
+    "phone": "Téléphone",
+    "email": "Adresse e-mail",
+    "date": "Date",
+    "time": "Heure",
+    "party": "Nombre de personnes",
+    "notes": "Allergies ou remarques particulières",
+    "occasion": "Occasion spéciale",
+    "seating": "Préférence d'emplacement",
+    "seating_main": "Salle principale climatisée",
+    "seating_terrace": "Terrasse ombragée",
+    "seating_patio": "Patio traditionnel calme",
+    "step_party": "Convives",
+    "step_date": "Date & Heure",
+    "step_details": "Coordonnées",
+    "step_confirm": "Confirmation",
+    "large_party_badge": "Groupe (sur demande)",
+    "large_party_notice": "Pour les groupes de 8 personnes ou plus, notre équipe vous confirmera la disponibilité sous 2 heures.",
+    "select_date": "Choisir une date",
+    "select_slot": "Choisir un créneau",
+    "shift_lunch": "Déjeuner",
+    "shift_dinner": "Dîner",
+    "few_seats_left": "Dernières places",
+    "slot_full": "Complet",
+    "no_slots_date": "Aucun créneau disponible pour cette date.",
+    "next_step": "Continuer",
+    "back_step": "Retour",
+    "submit": "Confirmer ma réservation",
+    "submit_request": "Envoyer ma demande de réservation",
+    "confirmed_title": "Réservation confirmée !",
+    "pending_title": "Demande reçue !",
+    "confirmed_msg": "Votre table est réservée avec succès. Nous nous réjouissons de vous accueillir.",
+    "pending_msg": "Votre demande a bien été enregistrée. Notre équipe va la valider très rapidement.",
+    "booking_ref": "Référence",
+    "add_to_calendar": "Ajouter au calendrier (.ics)",
+    "google_calendar": "Google Agenda",
+    "chat_whatsapp": "Contacter par WhatsApp",
+    "manage_booking": "Gérer ma réservation",
+    "new_booking": "Faire une autre réservation"
+  },
+  "order_page": {
+    "heading": "Commander en Ligne",
+    "subheading": "Sélectionnez vos plats et confirmez votre commande facilement par WhatsApp.",
+    "all": "Tout afficher",
+    "add_to_cart": "Ajouter",
+    "cart_title": "Votre Panier",
+    "empty_cart": "Votre panier est vide.",
+    "items_count": "{count} article(s)",
+    "subtotal": "Sous-total",
+    "total": "Total",
+    "order_type": "Mode de commande",
+    "dine_in": "Sur place",
+    "takeaway": "À emporter",
+    "table_number": "Numéro de table",
+    "pickup_time": "Heure de retrait",
+    "name": "Nom complet",
+    "phone": "Téléphone",
+    "notes": "Instructions / allergies",
+    "submit": "Envoyer la commande via WhatsApp",
+    "clear_cart": "Vider le panier"
+  },
+  "aria": {
+    "open_menu": "Ouvrir le menu",
+    "close_menu": "Fermer le menu",
+    "lang_switcher": "Changer de langue",
+    "social_instagram": "Instagram",
+    "social_facebook": "Facebook"
+  }
+}
+

@@ -1,0 +1,138 @@
+{
+  "common": {
+    "required": "Required",
+    "optional": "Optional",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success"
+  },
+  "nav": {
+    "menu": "Menu",
+    "story": "Our Story",
+    "gallery": "Gallery",
+    "visit": "Find Us",
+    "reserve": "Reserve",
+    "order": "Order"
+  },
+  "hero": {
+    "cta_reserve": "Reserve a table",
+    "cta_menu": "View menu"
+  },
+  "story": {
+    "flourish": "Heritage & Passion",
+    "heading": "A cuisine rooted in tradition",
+    "body": "Since 2015, we have been celebrating the authentic flavours of Tunisia — carefully selected ingredients, recipes passed down through generations, in a warm setting at the heart of the medina.",
+    "cta": "Discover our story"
+  },
+  "signature": {
+    "heading": "Signature Dishes",
+    "subheading": "A selection of our most beloved creations"
+  },
+  "menu_section": {
+    "heading": "The Menu",
+    "view_full": "View full menu"
+  },
+  "gallery": {
+    "heading": "The Atmosphere",
+    "subheading": "An elegant setting for unforgettable moments"
+  },
+  "cta": {
+    "heading": "A table is waiting for you",
+    "subheading": "Reserve your experience or order in just a few seconds.",
+    "reserve": "Reserve",
+    "order": "Order"
+  },
+  "visit": {
+    "heading": "Find Us",
+    "open_now": "Open now",
+    "closed": "Closed",
+    "opens_at": "Opens at {time}",
+    "directions": "Get directions",
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "legal": "Legal"
+  },
+  "menu_page": {
+    "heading": "Our Menu",
+    "tag_vegetarian": "Vegetarian",
+    "tag_spicy": "Spicy",
+    "tag_signature": "Signature",
+    "tag_new": "New",
+    "tag_halal": "Halal",
+    "unavailable": "Unavailable"
+  },
+  "reserve_page": {
+    "heading": "Reserve a Table",
+    "name": "Full name",
+    "phone": "Phone number",
+    "email": "Email address",
+    "date": "Date",
+    "time": "Time",
+    "party": "Party size",
+    "notes": "Dietary requirements or special requests",
+    "occasion": "Special occasion",
+    "seating": "Seating preference",
+    "seating_main": "Main dining room (AC)",
+    "seating_terrace": "Outdoor terrace",
+    "seating_patio": "Quiet traditional patio",
+    "step_party": "Guests",
+    "step_date": "Date & Time",
+    "step_details": "Your Details",
+    "step_confirm": "Confirmation",
+    "large_party_badge": "Group (On request)",
+    "large_party_notice": "For groups of 8 or more, our team will review and confirm availability within 2 hours.",
+    "select_date": "Select date",
+    "select_slot": "Select a time slot",
+    "shift_lunch": "Lunch",
+    "shift_dinner": "Dinner",
+    "few_seats_left": "Few seats left",
+    "slot_full": "Fully booked",
+    "no_slots_date": "No available slots on this date.",
+    "next_step": "Continue",
+    "back_step": "Back",
+    "submit": "Confirm Reservation",
+    "submit_request": "Submit Reservation Request",
+    "confirmed_title": "Reservation Confirmed!",
+    "pending_title": "Request Received!",
+    "confirmed_msg": "Your table has been reserved. We look forward to welcoming you.",
+    "pending_msg": "Your request has been received. Our team will review and confirm shortly.",
+    "booking_ref": "Reference",
+    "add_to_calendar": "Add to Calendar (.ics)",
+    "google_calendar": "Google Calendar",
+    "chat_whatsapp": "Chat on WhatsApp",
+    "manage_booking": "Manage My Reservation",
+    "new_booking": "Make Another Reservation"
+  },
+  "order_page": {
+    "heading": "Order Online",
+    "subheading": "Select your dishes and confirm your order directly via WhatsApp.",
+    "all": "All",
+    "add_to_cart": "Add",
+    "cart_title": "Your Order",
+    "empty_cart": "Your cart is currently empty.",
+    "items_count": "{count} item(s)",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "order_type": "Order type",
+    "dine_in": "Dine-in",
+    "takeaway": "Takeaway",
+    "table_number": "Table number",
+    "pickup_time": "Pickup time",
+    "name": "Full name",
+    "phone": "Phone number",
+    "notes": "Special instructions / allergies",
+    "submit": "Send Order via WhatsApp",
+    "clear_cart": "Clear cart"
+  },
+  "aria": {
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "lang_switcher": "Change language",
+    "social_instagram": "Instagram",
+    "social_facebook": "Facebook"
+  }
+}
+

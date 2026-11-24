@@ -1,0 +1,138 @@
+{
+  "common": {
+    "required": "مطلوب",
+    "optional": "اختياري",
+    "loading": "جار التحميل...",
+    "error": "حدث خطأ ما",
+    "success": "تم بنجاح"
+  },
+  "nav": {
+    "menu": "القائمة",
+    "story": "قصتنا",
+    "gallery": "معرض الصور",
+    "visit": "زيارتنا",
+    "reserve": "احجز طاولة",
+    "order": "اطلب الآن"
+  },
+  "hero": {
+    "cta_reserve": "احجز طاولة",
+    "cta_menu": "عرض القائمة"
+  },
+  "story": {
+    "flourish": "أصالة وشغف",
+    "heading": "مطبخ متجذر في الموروث التونسي",
+    "body": "منذ عام 2015 ونحن نحتفي بنكهات تونس الأصيلة — مكونات مختارة بعناية، ووصفات تتوارثها الأجيال، في فضاء دافئ في قلب المدينة العتيقة.",
+    "cta": "اكتشف قصتنا"
+  },
+  "signature": {
+    "heading": "أطباقنا المميزة",
+    "subheading": "تشكيلة من أبرز إبداعاتنا"
+  },
+  "menu_section": {
+    "heading": "القائمة",
+    "view_full": "عرض القائمة الكاملة"
+  },
+  "gallery": {
+    "heading": "الأجواء",
+    "subheading": "فضاء أنيق لحظات لا تُنسى"
+  },
+  "cta": {
+    "heading": "طاولة بانتظارك",
+    "subheading": "احجز تجربتك أو اطلب في ثوانٍ معدودة.",
+    "reserve": "احجز",
+    "order": "اطلب"
+  },
+  "visit": {
+    "heading": "كيف تجدنا",
+    "open_now": "مفتوح الآن",
+    "closed": "مغلق",
+    "opens_at": "يفتح الساعة {time}",
+    "directions": "الاتجاهات",
+    "call": "اتصل",
+    "whatsapp": "واتساب"
+  },
+  "footer": {
+    "rights": "جميع الحقوق محفوظة.",
+    "legal": "الشروط القانونية"
+  },
+  "menu_page": {
+    "heading": "قائمتنا",
+    "tag_vegetarian": "نباتي",
+    "tag_spicy": "حار",
+    "tag_signature": "مميز",
+    "tag_new": "جديد",
+    "tag_halal": "حلال",
+    "unavailable": "غير متوفر"
+  },
+  "reserve_page": {
+    "heading": "احجز طاولة",
+    "name": "الاسم الكامل",
+    "phone": "رقم الهاتف",
+    "email": "البريد الإلكتروني",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "party": "عدد الأشخاص",
+    "notes": "حساسيات غذائية أو ملاحظات خاصة",
+    "occasion": "المناسبة",
+    "seating": "المكان المفضل",
+    "seating_main": "القاعة الرئيسية المكيفة",
+    "seating_terrace": "الشرفة الخارجية",
+    "seating_patio": "الفناء التقليدي الهادئ",
+    "step_party": "الضيوف",
+    "step_date": "الموعد",
+    "step_details": "البيانات",
+    "step_confirm": "التأكيد",
+    "large_party_badge": "مجموعة (حسب التوفر)",
+    "large_party_notice": "للمجموعات المكونة من 8 أشخاص أو أكثر، سيتواصل فريقنا لتأكيد الحجز خلال ساعتين.",
+    "select_date": "اختر التاريخ",
+    "select_slot": "اختر التوقيت المناسب",
+    "shift_lunch": "الغداء",
+    "shift_dinner": "العشاء",
+    "few_seats_left": "أماكن محدودة",
+    "slot_full": "مكتمل",
+    "no_slots_date": "لا توجد أوقات شاغرة في هذا اليوم.",
+    "next_step": "متابعة",
+    "back_step": "رجوع",
+    "submit": "تأكيد الحجز",
+    "submit_request": "إرسال طلب الحجز",
+    "confirmed_title": "تم تأكيد الحجز بنجاح!",
+    "pending_title": "تم استلام طلب الحجز!",
+    "confirmed_msg": "تم حجز طاولتك بنجاح. يسعدنا جداً استقبالكم.",
+    "pending_msg": "تم تسجيل طلبك. سيقوم فريقنا بمراجعته وتأكيده في أقرب وقت.",
+    "booking_ref": "رقم الحجز",
+    "add_to_calendar": "إضافة إلى التقويم (.ics)",
+    "google_calendar": "تقويم جوجل",
+    "chat_whatsapp": "تواصل عبر واتساب",
+    "manage_booking": "إدارة الحجز",
+    "new_booking": "حجز جديد"
+  },
+  "order_page": {
+    "heading": "الطلب أونلاين",
+    "subheading": "اختر أطباقك المفضلة وأرسل طلبك مباشرة عبر واتساب.",
+    "all": "الكل",
+    "add_to_cart": "إضافة",
+    "cart_title": "سلة الطلبات",
+    "empty_cart": "سلتك فارغة حالياً.",
+    "items_count": "{count} صنف",
+    "subtotal": "المجموع الفرعي",
+    "total": "المجموع الإجمالي",
+    "order_type": "طريقة الطلب",
+    "dine_in": "تناول في المطعم",
+    "takeaway": "استلام سفري",
+    "table_number": "رقم الطاولة",
+    "pickup_time": "وقت الاستلام",
+    "name": "الاسم الكامل",
+    "phone": "رقم الهاتف",
+    "notes": "ملاحظات / حساسية",
+    "submit": "إرسال الطلب عبر واتساب",
+    "clear_cart": "إفراغ السلة"
+  },
+  "aria": {
+    "open_menu": "فتح القائمة",
+    "close_menu": "إغلاق القائمة",
+    "lang_switcher": "تغيير اللغة",
+    "social_instagram": "إنستغرام",
+    "social_facebook": "فيسبوك"
+  }
+}
+

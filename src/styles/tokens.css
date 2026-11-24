@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Raw palette ── */
+  --color-forest:    #123C30;
+  --color-deep:      #09251F;
+  --color-olive:     #798267;
+  --color-sand:      #D8C7A5;
+  --color-cream:     #F5F0E6;
+  --color-terracotta:#B66F4C;
+  --color-gold:      #B99A63;
+  --color-charcoal:  #252923;
+
+  /* ── Semantic roles — override per client ── */
+  --color-surface:      var(--color-cream);
+  --color-surface-dark: var(--color-deep);
+  --color-brand:        var(--color-forest);
+  --color-ink:          var(--color-charcoal);
+  --color-ink-inverse:  var(--color-cream);
+  --color-cta:          var(--color-gold);
+  --color-cta-ink:      var(--color-deep);
+  --color-accent:       var(--color-terracotta);
+  --color-line: color-mix(in srgb, var(--color-sand) 60%, transparent);
+
+  /* ── Typography ── */
+  --font-display: var(--font-cormorant), "Cormorant Garamond", serif;
+  --font-body:    var(--font-dm-sans),   "DM Sans", system-ui, sans-serif;
+  --font-arabic:  var(--font-plex-arabic),"IBM Plex Sans Arabic", system-ui, sans-serif;
+
+  /* ── Easing ── */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-soft:     cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-in-out:   cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* ── Arabic locale overrides ── */
+[lang="ar"] {
+  --font-display: var(--font-arabic);
+  --font-body:    var(--font-arabic);
+}
+
+/* ── Reduced-motion safety net ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
